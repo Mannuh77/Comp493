@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+body, html {
+    overflow: auto; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1, h2 {
+    color: #444;
+}
+.heading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; 
+    z-index: 1000;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.side-menu {
+    position: fixed;
+    background: greenyellow;
+    width: 25%;
+    min-height: 120vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-menu .Cdfportal {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin-left: -8vh;
+    text-decoration: underline;
+    z-index: 1;
+}
+
+.side-menu li {
+    font-size: 24px;
+    padding: 10px 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.side-menu li:hover {
+    color: aliceblue;
+    background: green;
+}
+
+.show{
+    width: 100%;
+    height: 70px;
+    border:linear-gradient(to right,rgb(119, 187, 18),rgb(216, 100, 22));
+    margin-top: -2%;
+    background: linear-gradient(to right,rgb(119, 187, 18),rgb(216, 100, 22));
+}
+.headings{
+    margin-left:40%;
+    margin-top:2%;
+}
+.headings input{
+    margin-left:-24% ;
+    margin-top: 3%;
+    padding: 0;
+    width: 40%;
+    font-size: 24;
+    font-weight: bold;
+    height: 25px;
+}
+.new-section {
+    width: 75%;
+    margin-left: 25%;
+    min-height: 120vh;
+    margin-top: -20%;
+    background: linear-gradient(to right, rgb(207, 132, 19), rgb(231, 229, 228)); 
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.new-section {
+    display: flex; /* Use flexbox layout */
+    margin-top: -20%;
+    justify-content: space-around; /* Distribute items evenly along the main axis */
+    align-items: center; /* Center items vertically */
+}
+
+.grid-item {
+    text-align: center; /* Center text horizontally */
+    margin-top: -20%;
+    margin: 0 10px; /* Add spacing between grid items */
+}
+
+.grid-item {
+    background-color: white;
+    padding: 10px;
+    margin-top: -20%;
+    height: 200px;
+    width:360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item h1 {
+    font-size: 18px;
+}
+
+.grid-item img {
+    width: 100px;
+    height: 100px;
+}
+

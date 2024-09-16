@@ -1,0 +1,26 @@
+# Dependency directories
+/vendor/
+/node_modules/
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+
+# Database files
+*.sql
+*.sqlite
+
+# Environment variables
+.env
+
+# Misc
+*.tmp
+*.bak
