@@ -1,26 +1,24 @@
 # Dependency directories
-/vendor/
-/node_modules/
+/vendor/ /node_modules/
 
 # Log files
 *.log
 
 # OS-specific files
-.DS_Store
-Thumbs.db
+.DS_Store Thumbs.db
 
 # IDE and editor files
-.idea/
-.vscode/
-*.swp
+.idea/ .vscode/ *.swp
 
 # Database files
-*.sql
-*.sqlite
+*.sql *.sqlite
 
 # Environment variables
 .env
 
-# Misc
-*.tmp
-*.bak
+# Miscellaneous
+*.tmp *.bak
+
+# PHP files
+*.php
+
