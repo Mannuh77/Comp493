@@ -304,7 +304,7 @@ try {
             case 'home':
                 contentContainer.innerHTML = "<div class='rectangular-container'style='margin-top:100px;'>" +
                     "<ul>" +
-                    "<li>KNOW MORE ABOUT CDF</li>" +
+                    "<li>KNOW MORE ABOUT CDF KENYA</li>" +
                     "<li><a href='#' onclick='showContent(`about`)'>ABOUT US</a></li>" +
                     "<li><a href='#' onclick='showContent(`mission`)'>MISSION</a></li>" +
                     "<li><a href='#' onclick='showContent(`vision`)'>NG-CDF IMPLEMENTATION STRUCTURE</a></li>" +
