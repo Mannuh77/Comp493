@@ -22,3 +22,7 @@
 # PHP files
 *.php
 
+
+/cdfmkononi_site/
+/cdfmkononi*.zip
+
